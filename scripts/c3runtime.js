@@ -4730,6 +4730,7 @@ self.C3_JsPropNameTable = [
 	{healthBar: 0},
 	{collectableLaserPieces: 0},
 	{ErrorText: 0},
+	{version: 0},
 	{Enemies: 0},
 	{startupDestroyObjects: 0},
 	{particles: 0},
@@ -4783,6 +4784,7 @@ self.InstanceType = {
 	healthBar: class extends self.ISpriteInstance {},
 	collectableLaserPieces: class extends self.ISpriteInstance {},
 	ErrorText: class extends self.ITextInstance {},
+	version: class extends self.ITextInstance {},
 	Enemies: class extends self.ISpriteInstance {},
 	startupDestroyObjects: class extends self.ISpriteInstance {},
 	particles: class extends self.IParticlesInstance {}
